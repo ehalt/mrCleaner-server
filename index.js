@@ -94,6 +94,3 @@ app.post('/addReview', (req, res) => {
 
 
 app.listen(process.env.PORT || port)
-
-// mline a asce connect hoice tor client a niye ja akhon amak
-// dusto son. firebase o add kora hoy nai prothome jeta add korcilam seta t ochange korci tham firebase ta kore nai tui dekh thik ace ki na
