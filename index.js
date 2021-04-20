@@ -13,6 +13,12 @@ app.use(cors());
 require('dotenv').config()
 const port = 5500
 
+//default
+
+app.get('/', (req, res) => {
+    res.send("It's working correctly...")
+})
+
 // for body parser
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
